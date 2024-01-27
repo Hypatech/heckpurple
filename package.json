@@ -1,0 +1,32 @@
+{
+  "name": "heckpurple",
+  "displayName": "heckpurple",
+  "publisher": "Heckteck",
+  "description": "A purple theme (modified Omni)",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Heck Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Heck Purple-color-theme.json"
+      },
+	  {
+        "label": "Heck Purple Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Heck Purple Contrast-color-theme.json"
+      },
+	  {
+        "label": "Heck Purple Flat",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Heck Purple Flat-color-theme.json"
+      }
+    ]
+  }
+}
